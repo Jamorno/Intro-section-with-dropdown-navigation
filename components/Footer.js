@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Footer() {
     return (
-        <footer>
+        <footer className="lg:mb-20">
             <div className="flex space-x-4 items-center justify-center pt-10 pb-16 lg:hidden">
                 <Image className="cursor-pointer" src="/client-databiz.svg" width="80" height="10" alt="client-databiz-image" />
                 <Image className="cursor-pointer" src="/client-audiophile.svg" width="50" height="10" alt="client-audiophile-image" />
