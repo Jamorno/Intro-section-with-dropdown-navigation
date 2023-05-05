@@ -11,7 +11,7 @@ export default function Footer() {
             </div>
 
             {/* Footer desktop */}
-            <div className="space-x-8 items-center justify-center hidden lg:flex lg:absolute bottom-32 left-40">
+            <div className="space-x-8 items-center justify-center hidden lg:flex lg:absolute bottom-2 left-40">
                 <Image className="cursor-pointer" src="/client-databiz.svg" width="100" height="10" alt="client-databiz-image" />
                 <Image className="cursor-pointer" src="/client-audiophile.svg" width="70" height="10" alt="client-audiophile-image" />
                 <Image className="cursor-pointer" src="/client-meet.svg" width="100" height="10" alt="client-meet-image" />
